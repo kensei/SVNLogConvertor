@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LogConvertor>
+
+  <!-- repopath -->
+  <svnURL>http://172.20.30.32/svn/makieya/branches/shingu</svnURL>
+  <!-- svnuserid -->
+  <svnUserName>makieyadev</svnUserName>
+  <!-- svnuserpassword -->
+  <svnPassword>makieyadev000</svnPassword>
+  <!-- connectprotcon -->
+  <svnProtocol>http</svnProtocol>
+  <!-- log only mode -->
+  <logOnlyMode>false</logOnlyMode>
+
+</LogConvertor>
