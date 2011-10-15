@@ -1,4 +1,4 @@
-package jp.co.bcc.SVNLogConvertor;
+package org.firespeed.kensei.SVNLogConvertor;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -53,7 +53,7 @@ public final class Setting {
 		try {
 			init(settingFile.toURL());
 		} catch (MalformedURLException e) {
-			throw new IllegalArgumentException("設定ファイルが読み込めません：" + settingFile.getAbsoluteFile());
+			throw new IllegalArgumentException("url pars error" + settingFile.getAbsoluteFile());
 		}
 	}
 

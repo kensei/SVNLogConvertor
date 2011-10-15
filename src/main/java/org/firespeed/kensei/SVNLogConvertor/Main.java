@@ -1,4 +1,4 @@
-package jp.co.bcc.SVNLogConvertor;
+package org.firespeed.kensei.SVNLogConvertor;
 
 /**
  * 

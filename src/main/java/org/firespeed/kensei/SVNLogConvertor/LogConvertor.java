@@ -1,12 +1,12 @@
-package jp.co.bcc.SVNLogConvertor;
+package org.firespeed.kensei.SVNLogConvertor;
 
 import java.util.Collection;
 
-import jp.co.bcc.SVNLogConvertor.Exception.LogConvertorConnectException;
-import jp.co.bcc.SVNLogConvertor.Exception.LogConvertorException;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
+import org.firespeed.kensei.SVNLogConvertor.Exception.LogConvertorConnectException;
+import org.firespeed.kensei.SVNLogConvertor.Exception.LogConvertorException;
 import org.tmatesoft.svn.core.SVNException;
 import org.tmatesoft.svn.core.SVNLogEntry;
 import org.tmatesoft.svn.core.SVNPropertyValue;
@@ -92,7 +92,7 @@ public class LogConvertor {
 	
 	/**
 	 * <pre>
-	 *   proxyがある場合はserverに設定しておくこと
+	 *   proxyがある�?合�?serverに設定しておくこと
 	 * </pre>
 	 * @param url
 	 * @param userName

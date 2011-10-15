@@ -1,4 +1,4 @@
-package jp.co.bcc.SVNLogConvertor;
+package org.firespeed.kensei.SVNLogConvertor;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -25,7 +25,7 @@ public final class Replacer {
 	 * @return
 	 */
 	private static Pattern getPattern() {
-		return (ptn_ != null) ? ptn_ : Pattern.compile("([ã€€|\\s|,]|\\G)([1-9][0-9]*)([ã€€|\\s|,])");
+		return (ptn_ != null) ? ptn_ : Pattern.compile("([ã€?\\s|,]|\\G)([1-9][0-9]*)([ã€?\\s|,])");
 	}
 	
 	/**

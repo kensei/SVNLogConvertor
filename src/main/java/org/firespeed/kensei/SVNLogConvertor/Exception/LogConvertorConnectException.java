@@ -1,4 +1,4 @@
-package jp.co.bcc.SVNLogConvertor.Exception;
+package org.firespeed.kensei.SVNLogConvertor.Exception;
 
 /**
  * 
